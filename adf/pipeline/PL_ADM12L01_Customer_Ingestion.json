@@ -1,7 +1,17 @@
-﻿{
+{
   "name": "PL_ADM12L01_Customer_Ingestion",
   "properties": {
-    "description": "Sample ADF pipeline artifact used for Git branching and feature flag simulation.",
+    "activities": [
+      {
+        "name": "Simulated_Ingestion_Activity",
+        "type": "Wait",
+        "dependsOn": [],
+        "userProperties": [],
+        "typeProperties": {
+          "waitTimeInSeconds": 1
+        }
+      }
+    ],
     "parameters": {
       "environment": {
         "type": "String",
@@ -12,15 +22,6 @@
         "defaultValue": false
       }
     },
-    "activities": [
-      {
-        "name": "Simulated_Ingestion_Activity",
-        "type": "Wait",
-        "typeProperties": {
-          "waitTimeInSeconds": 1
-        }
-      }
-    ],
     "annotations": [
       "ADM12L01",
       "GitBranchingStrategy"
