@@ -1,0 +1,8 @@
+﻿{
+  "featureFlags": {
+    "enableStrictValidation": false,
+    "enableSchemaDriftCheck": false,
+    "enableAuditLogging": true
+  },
+  "description": "Feature flags allow pipeline behavior to change without creating separate branches for every environment."
+}

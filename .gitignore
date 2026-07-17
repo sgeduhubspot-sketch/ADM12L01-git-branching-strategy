@@ -1,0 +1,14 @@
+﻿# OS files
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Databricks local artifacts
+.databricks/
