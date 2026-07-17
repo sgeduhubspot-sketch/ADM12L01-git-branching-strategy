@@ -1,6 +1,6 @@
 ﻿{
   "featureFlags": {
-    "enableStrictValidation": false,
+    "enableStrictValidation": true,
     "enableSchemaDriftCheck": false,
     "enableAuditLogging": true
   },
